@@ -1,5 +1,6 @@
 require 'pry'
 
+extend Memorable::ClassMethods
 
 class Song
   attr_accessor :name
